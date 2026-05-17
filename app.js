@@ -147,6 +147,8 @@ function checkoutWhatsApp() {
 
   const address = document.getElementById("customerAddress").value;
 
+  const orderDate = document.getElementById("orderDate").value;
+
   if (!name.trim()) {
     alert("Nama wajib diisi");
     return;
@@ -171,7 +173,10 @@ function checkoutWhatsApp() {
 
   waMessage += `%0ATotal: Rp${total.toLocaleString("id-ID")}%0A`;
 
-  waMessage += `%0ANama: ${name}%0AAlamat: ${address}`;
+  waMessage +=
+    `%0ANama: ${name}` +
+    `%0AAlamat: ${address}` +
+    `%0ATanggal Pesanan: ${orderDate}`;
 
   document.getElementById("qrisBox").style.display = "block";
 
