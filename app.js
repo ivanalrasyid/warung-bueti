@@ -2,22 +2,22 @@ const menus = [
   {
     name: "Nasi Rames Ayam/Dadar Telur",
     price: 15000,
-    image: "images/nasirames.jpg",
+    image: "images/rames.jpeg",
   },
   {
     name: "Nasi Goreng",
     price: 13000,
-    image: "images/nasigoreng.jpg",
+    image: "images/nasi-goreng.jpeg",
   },
   {
     name: "Nasi Uduk",
     price: 10000,
-    image: "images/nasiuduk.jpg",
+    image: "images/nasi-uduk.jpeg",
   },
   {
     name: "Donat Bomboloni (3 pcs)",
     price: 10000,
-    image: "images/bomboloni.jpg",
+    image: "images/donat.jpg",
   },
   {
     name: "Gorengan (4 pcs)",
@@ -27,17 +27,17 @@ const menus = [
   {
     name: "Makaroni Bumbu Rujak",
     price: 6000,
-    image: "images/makaroni.jpg",
+    image: "images/makaroni.webp",
   },
   {
     name: "Buah Potong",
     price: 25000,
-    image: "images/buahpotong.jpg",
+    image: "images/buah.jpg",
   },
   {
     name: "Kue Gabin/Roti Pizza (3 pcs)",
     price: 10000,
-    image: "images/gabinpizza.jpg",
+    image: "images/gabin.webp",
   },
 ];
 
