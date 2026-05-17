@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Bu Eti</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WARUNG BU ETI</h1>
+      <p>Daftar Menu</p>
+    </header>
+
+    <div class="container" id="menu-container"></div>
+
+    <div class="cart">
+      <h2>Keranjang</h2>
+      <div id="cart-items"></div>
+      <h3 id="total">Total: Rp0</h3>
+
+      <input type="text" id="customerName" placeholder="Nama" required />
+      <textarea id="customerAddress" placeholder="Alamat"></textarea>
+
+      <div class="qris-box" id="qrisBox" style="display: none">
+        <h3>Scan QRIS</h3>
+
+        <img src="images/qris.jpeg" class="qris-image" />
+
+        <p id="qrisTotal"></p>
+
+        <button onclick="sendWhatsApp()">Saya Sudah Bayar</button>
+      </div>
+
+      <button onclick="checkoutWhatsApp()">Pesan via WhatsApp</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
