@@ -27,7 +27,7 @@ const menus = [
   {
     name: "Makaroni Bumbu Rujak",
     price: 6000,
-    image: "images/makaroni.webp",
+    image: "images/bumbu-rujak.jpg",
   },
   {
     name: "Buah Potong",
